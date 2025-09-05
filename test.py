@@ -20,6 +20,7 @@ def ufbt_exec(args, cwd=None):
     return subprocess.check_output(["ufbt"] + args, cwd=cwd)
 
 
+
 # Test initial deployment
 class TestInitialDeployment(unittest.TestCase):
     def test_default_deployment(self):
